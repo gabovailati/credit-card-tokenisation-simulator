@@ -1,7 +1,7 @@
-# Credit Card Tokenization Simulator
+# Credit Card Tokenisation Simulator
 
 ## Project Overview
-This repository contains a Flask-based API that simulates the credit card tokenization process. It is an educational tool to demonstrate generating and validating tokenized credit card transactions, involving a mock bank server, a mobile payment platform interface, and a merchant's point-of-sale system.
+This repository contains a Flask-based API that simulates the credit card tokenisation process. It is an educational tool to demonstrate generating and validating tokenized credit card transactions, involving a mock bank server, a mobile payment platform interface, and a merchant's point-of-sale system.
 
 ## Features
 - **Credit Card Generation**: Generate mock credit card details.
@@ -19,8 +19,8 @@ This repository contains a Flask-based API that simulates the credit card tokeni
 ### Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/yourusername/credit-card-tokenization-simulator.git
-cd credit-card-tokenization-simulator
+git clone https://github.com/yourusername/credit-card-tokenisation-simulator.git
+cd credit-card-tokenisation-simulator
 pip install flask flask_sqlalchemy names
 ```
 
