@@ -73,5 +73,17 @@ The server will start on `http://127.0.0.1:5000/`.
   { "status": "valid" }
   ```
 
+### Testing using curl
+```bash
+curl -X POST http://127.0.0.1:5000/generate_card -H "Content-Type: application/json"
+```
+```bash
+curl -X POST http://127.0.0.1:5000/generate_token -H "Content-Type: application/json" -d '{"card_number":"7467178174305426"}'
+```
+```bash
+curl -X POST http://127.0.0.1:5000/validate_token -H "Content-Type: application/json" -d '{"token":"9382f08a6e1356333641883958be15996e0ad0eafbcc8ed080942c374befcdfe"}'
+```
+
+
 ## Contributors
 - [Gabriel Vailati](https://github.com/gabovailati)
