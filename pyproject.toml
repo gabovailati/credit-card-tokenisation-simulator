@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "credit-card-tokenisation-simulator"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Vailati <gabrielgvailati@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.3"
+Flask-SQLAlchemy = "^3.1.1"
+names = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
