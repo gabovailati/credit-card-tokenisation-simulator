@@ -13,6 +13,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(base_dir, 'b
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
+# Creating class CreditCard
 class CreditCard(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     card_number = db.Column(db.String(16), unique=True, nullable=False)
