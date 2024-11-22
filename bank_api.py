@@ -26,7 +26,7 @@ class Token(db.Model):
     card_id = db.Column(db.Integer, db.ForeignKey('credit_card.id'), nullable=False)
     credit_card = db.relationship('CreditCard', backref=db.backref('tokens', lazy=True))
 
-# Create the database tables
+# Create the database tables ...
 with app.app_context():
     db.create_all()
 
