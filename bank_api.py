@@ -6,6 +6,7 @@ import os
 import names
 import hashlib
 import time
+import numpy
 
 app = Flask(__name__)
 base_dir = os.path.abspath(os.path.dirname(__file__))
